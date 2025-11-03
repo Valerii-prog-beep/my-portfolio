@@ -1,29 +1,36 @@
-# 🚀 Мое Портфолио - Frontend Developer
+# 🚀 My Portfolio - Frontend Developer
 
-Современное многостраничное портфолио с анимациями и адаптивным дизайном. Демонстрирует мои проекты и навыки в веб-разработке.
+Modern multi-page portfolio with animations and responsive design. Showcases my projects and web development skills.
 
-## 🎯 Особенности
+## 🎯 Features
 
-- **Многостраничность** - 5 разделов с роутингом
-- **Современный стек** - React, JavaScript, Tailwind CSS
-- **Анимации** - Framer Motion для плавных переходов
-- **Адаптивность** - оптимизировано для всех устройств
-- **Docker-контейнеризация** - готова к деплою
+- **Multi-page** - 5 sections with routing
+- **Modern stack** - React, JavaScript, Tailwind CSS  
+- **Animations** - Framer Motion for smooth transitions
+- **Responsive** - optimized for all devices
+- **Dockerized** - ready for deployment
 
-## 🛠 Технологии
+## 🛠 Tech Stack
 
-- **React 18** - функциональные компоненты и хуки
-- **JavaScript (ES6+)** - современный синтаксис
-- **Tailwind CSS** - утилитарные стили
-- **Framer Motion** - продвинутые анимации
-- **React Router** - клиентская маршрутизация
-- **Docker** - контейнеризация приложения
-- **Vite** - быстрая сборка и разработка
+- **React 18** - functional components & hooks
+- **JavaScript (ES6+)** - modern syntax
+- **Tailwind CSS** - utility-first styling
+- **Framer Motion** - advanced animations
+- **React Router** - client-side routing
+- **Docker** - containerization
+- **Vite** - fast build & development
 
-## 🚀 Быстрый старт
+## 🚀 Quick Start
 
-### Локальная разработка:
+### Local Development:
 ```bash
 npm install
 npm run dev
-# Открыть http://localhost:5173
+# Open http://localhost:5173
+
+Build for Production:
+npm run build
+
+Docker:
+docker build -t my-portfolio .
+docker run -p 5173:5173 my-portfolio
