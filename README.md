@@ -1,12 +1,29 @@
-# React + Vite
+# 🚀 Мое Портфолио - Frontend Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Современное многостраничное портфолио с анимациями и адаптивным дизайном. Демонстрирует мои проекты и навыки в веб-разработке.
 
-Currently, two official plugins are available:
+## 🎯 Особенности
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Многостраничность** - 5 разделов с роутингом
+- **Современный стек** - React, JavaScript, Tailwind CSS
+- **Анимации** - Framer Motion для плавных переходов
+- **Адаптивность** - оптимизировано для всех устройств
+- **Docker-контейнеризация** - готова к деплою
 
-## Expanding the ESLint configuration
+## 🛠 Технологии
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 18** - функциональные компоненты и хуки
+- **JavaScript (ES6+)** - современный синтаксис
+- **Tailwind CSS** - утилитарные стили
+- **Framer Motion** - продвинутые анимации
+- **React Router** - клиентская маршрутизация
+- **Docker** - контейнеризация приложения
+- **Vite** - быстрая сборка и разработка
+
+## 🚀 Быстрый старт
+
+### Локальная разработка:
+```bash
+npm install
+npm run dev
+# Открыть http://localhost:5173

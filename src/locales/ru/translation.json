@@ -1,0 +1,267 @@
+{
+  "navigation": {
+    "home": "Главная",
+    "web": "Веб-разработка",
+    "writing": "Стихи и рассказы",
+    "photos": "Фотографии",
+    "music": "Музыка"
+  },
+  "contact": {
+    "email": "Email",
+    "phone": "Телефон",
+    "github": "GitHub",
+    "telegram": "Telegram"
+  },
+  "hero": {
+    "title": "Валерий Богович",
+    "subtitle": "Frontend Developer & писатель & музыкант",
+    "bio1": "Привет! Я фронтенд разработчик красивых и функциональных веб-приложений.",
+    "bio2": "Пишу стихи, рассказы, отзывы, занимаюсь фотографией и музыкой.",
+    "bio3": "Исследуйте моё портфолио чтобы узнать больше о моих проектах и увлечениях!",
+    "learnMore": "Узнать больше"
+  },
+  "about": {
+    "title": "Обо мне",
+    "subtitle": "Знакомство с моим профессиональным путем и творческими увлечениями",
+    "educationTitle": "Образование",
+    "experienceTitle": "Опыт работы",
+    "hobbiesTitle": "Хобби и увлечения",
+    "personalInfo": {
+      "location": "Местоположение",
+      "locationValue": "Минск, Беларусь",
+      "age": "Возраст",
+      "ageValue": "38 лет",
+      "experience": "Опыт в IT",
+      "experienceValue": "2+ года"
+    },
+    "education": [
+      {
+        "period": "2009-2014",
+        "institution": "Белорусский Национальный Технический Университет",
+        "specialty": "Инженер-электромеханик",
+        "degree": "Специалист"
+      },
+      {
+        "period": "2017",
+        "institution": "Жилком",
+        "specialty": "Электромонтер по ремонту и обслуживанию электрооборудования",
+        "degree": "Рабочий"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2013-2017",
+        "position": "Инженер-конструктор",
+        "company": "ОАО Планар",
+        "description": "Создание конструкторской документации для станков и оснастки для создания полупроводниковых пластин"
+      },
+      {
+        "period": "2017-2018",
+        "position": "Электромонтер",
+        "company": "Мингорсвет",
+        "description": "Подключение подсветки на ЛЭП"
+      },
+      {
+        "period": "2019-2020",
+        "position": "Ремонтировщик стадионных сооружений",
+        "company": "ФК Минск",
+        "description": "Разнообразные работы на территории футбольного клуба: покраска и установка заборов, разметка футбольного поля и т д"
+      },
+      {
+        "period": "2020-2022",
+        "position": "Разнорабочий",
+        "company": "Белстатс",
+        "description": "Подсобные работы по изготовлению деталей для снегоуборочных машин"
+      },
+      {
+        "period": "2022-2024",
+        "position": "Разнорабочий",
+        "company": "СБК",
+        "description": "Подсобные работы в цеху по изготовлению железобетонных конструкций"
+      },
+      {
+        "period": "2024-н.в",
+        "position": "Курьер",
+        "company": "Яндекс Еда",
+        "description": "Доставка заказов"
+      }
+    ],
+    "hobbies": [
+      {
+        "title": "Писательство",
+        "description": "Пишу стихи, отзывы, рассказы, исследую разные литературные жанры"
+      },
+      {
+        "title": "Музыка",
+        "description": "Играю на гитаре, сочиняю музыку, увлекаюсь звукозаписью"
+      },
+      {
+        "title": "Фотография",
+        "description": "Люблю художественную и портретную фотографию, работаю с композицией"
+      },
+      {
+        "title": "Программирование",
+        "description": "Изучаю новые технологии, создаю пет-проекты, участвую в open-source"
+      }
+    ]
+  },
+  "web": {
+    "title": "Веб-разработка",
+    "subtitle": "Создаю современные full-stack приложения с акцентом на производительность, удобство использования и масштабируемость",
+    "stats": {
+      "projects": "Завершенных проекта",
+      "fullstack": "Full-Stack приложения",
+      "technologies": "Технологий в стеке",
+      "responsive": "Адаптивный дизайн"
+    },
+    "offers": {
+      "title": "Что я предлагаю"
+    },
+    "services": {
+      "frontend": {
+        "title": "Frontend Разработка",
+        "description": "Современные React приложения с TypeScript, адаптивным дизайном и плавными анимациями"
+      },
+      "backend": {
+        "title": "Backend Разработка",
+        "description": "Надежные серверные решения на Java Spring Boot с REST API, базами данных и аутентификацией"
+      },
+      "design": {
+        "title": "UI/UX Дизайн",
+        "description": "Интуитивные интерфейсы с продуманным пользовательским опытом и современным дизайном"
+      }
+    },
+    "approach": {
+      "title": "Мой подход к разработке",
+      "principles": "Принципы",
+      "technologies": "Технологии"
+    },
+    "principles": {
+      "cleanCode": "Чистый и поддерживаемый код",
+      "userExperience": "Ориентация на пользовательский опыт",
+      "scalableArchitecture": "Масштабируемая архитектура"
+    },
+    "cta": {
+      "title": "Готовы начать проект?",
+      "description": "Ищете разработчика для создания современного веб-приложения? Давайте обсудим ваши идеи и найдём лучшее решение!",
+      "button": "Связаться со мной"
+    },
+    "technologies": {
+      "react": "React",
+      "typescript": "TypeScript",
+      "tailwind": "Tailwind CSS",
+      "framer": "Framer Motion",
+      "spring": "Java Spring Boot",
+      "mysql": "MySQL",
+      "jwt": "JWT",
+      "rest": "REST API",
+      "figma": "Figma",
+      "responsive": "Responsive Design",
+      "research": "User Research"
+    },
+    "projects": {
+      "title": "Мои Проекты",
+      "subtitle": "Full-stack и frontend приложения, демонстрирующие мои навыки веб-разработки",
+      "fullstack": "Full-Stack",
+      "frontend": "Frontend",
+      "featuresTitle": "Особенности",
+      "technologiesTitle": "Технологии",
+      "viewProject": "Посмотреть проект",
+      "sourceCode": "Исходный код",
+      "allProjectsInclude": "Все проекты включают",
+      "allFeatures": {
+        "responsive": "Адаптивный дизайн",
+        "modernUI": "Современный UI/UX",
+        "cleanCode": "Чистый код",
+        "documentation": "Документация"
+      },
+      "features": {
+        "adminPanel": "Админ панель",
+        "menuManagement": "Управление меню",
+        "orderSystem": "Система заказов",
+        "authentication": "Аутентификация",
+        "onlinePayment": "Онлайн-оплата",
+        "productCatalog": "Каталог товаров",
+        "shoppingCart": "Корзина",
+        "personalAccount": "Личный кабинет",
+        "tourBooking": "Бронирование туров",
+        "filtering": "Фильтрация",
+        "formValidation": "Валидация форм",
+        "responsiveDesign": "Адаптивный дизайн",
+        "smoothAnimations": "Плавные анимации",
+        "multiPage": "Многостраничность",
+        "seoOptimization": "SEO-оптимизация"
+      },
+      "coffeeShop": {
+        "title": "Кофейня",
+        "description": "Полнофункциональный веб-сайт кофейни с административной панелью. Включает меню, систему заказов, управление товарами и пользовательскую корзину."
+      },
+      "ecommerce": {
+        "title": "Интернет-магазин",
+        "description": "E-commerce платформа с полным циклом покупок. Каталог товаров, корзина, оформление заказов, система оплаты и личный кабинет пользователя."
+      },
+      "travelAgency": {
+        "title": "Тур-агентство",
+        "description": "Современный сайт для бронирования туров с интуитивным интерфейсом. Фильтрация туров, расчет стоимости, валидация форм и адаптивный дизайн."
+      },
+      "portfolio": {
+        "title": "Портфолио",
+        "description": "Многостраничное веб-портфолио с современным дизайном. Анимации, адаптивная верстка и интерактивные элементы для презентации проектов."
+      }
+    }
+  },
+  "skills": {
+    "title": "Технические навыки",
+    "subtitle": "Постоянно совершенствую свои навыки и изучаю новые технологии для создания современных веб-приложений",
+    "frontend": "Frontend",
+    "backend": "Backend & Languages",
+    "tools": "Tools & DevOps",
+    "learning": {
+      "title": "В процессе изучения",
+      "technologies": "Next.js, GraphQL, AWS, Advanced TypeScript Patterns, Microservices Architecture"
+    },
+    "technologies": {
+      "html": "HTML",
+      "css": "CSS",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "react": "React",
+      "tailwind": "Tailwind CSS",
+      "nodejs": "Node.js",
+      "java": "Java",
+      "python": "Python",
+      "sql": "SQL",
+      "git": "Git",
+      "figma": "Figma",
+      "chatgpt": "ChatGPT/DeepSeek",
+      "docker": "Docker"
+    }
+  },
+  "writing": {
+    "title": "Стихи и рассказы",
+    "subtitle": "Мои литературные работы - поэзия, рассказы и творческие тексты",
+    "categories": {
+      "poetry": "Поэзия",
+      "stories": "Рассказы",
+      "reviews": "Отзывы"
+    }
+  },
+  "photos": {
+    "title": "Фотографии",
+    "subtitle": "Мое портфолио фотографий - художественные и портретные работы",
+    "categories": {
+      "portrait": "Портрет",
+      "artistic": "Художественные",
+      "nature": "Природа"
+    }
+  },
+  "music": {
+    "title": "Музыка",
+    "subtitle": "Мои музыкальные работы - гитарные исполнения и композиции",
+    "categories": {
+      "guitar": "Гитара",
+      "compositions": "Композиции",
+      "covers": "Каверы"
+    }
+  }
+}

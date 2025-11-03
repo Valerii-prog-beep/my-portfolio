@@ -1,69 +1,140 @@
-import React, { useState } from 'react'
-import { Menu, X } from 'lucide-react'
+import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { Mail, Phone, MessageCircle, Github, Globe } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const location = useLocation();
+  const { t, i18n } = useTranslation();
+  
+  const tabs = [
+    { id: '/', label: t('navigation.home') },
+    { id: '/web', label: t('navigation.web') },
+    { id: '/writing', label: t('navigation.writing') },
+    { id: '/photos', label: t('navigation.photos') },
+    { id: '/music', label: t('navigation.music') }
+  ];
 
-  // Функция для плавной прокрутки
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId)
-    if (element) {
-      element.scrollIntoView({ 
-        behavior: 'smooth',
-        block: 'start'
-      })
+  const contacts = [
+    { 
+      icon: <Mail className="w-4 h-4" />, 
+      value: 'valerii_bogovich87@mail.ru', 
+      href: 'mailto:valerii_bogovich87@mail.ru' 
+    },
+    { 
+      icon: <Phone className="w-4 h-4" />, 
+      value: '+7 XXX XXX-XX-XX', 
+      href: 'tel:+7XXXXXXXXXX' 
+    },
+    { 
+      icon: <Github className="w-4 h-4" />, 
+      value: t('contact.github'), 
+      href: 'https://github.com/Valerii-prog-beep',
+      external: true
+    },
+    { 
+      icon: <MessageCircle className="w-4 h-4" />, 
+      value: t('contact.telegram'), 
+      href: 'https://t.me/valera_writer',
+      external: true
     }
-    setIsOpen(false) // Закрываем мобильное меню после клика
-  }
+  ];
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
-    <header className="fixed top-0 w-full bg-gray-900/90 backdrop-blur-sm z-50 border-b border-gray-800">
-      <nav className="container mx-auto px-6 py-4">
-        <div className="flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-blue-400">Valerii</h1>
-          
-          {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8">
-            {['home', 'about', 'skills', 'projects', 'contact'].map((item) => (
-              <button
-                key={item}
-                onClick={() => scrollToSection(item)}
-                className="text-gray-300 hover:text-blue-400 transition-colors capitalize"
+    <header className="fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-md z-50 border-b border-gray-700">
+      <div className="container mx-auto px-6 py-3">
+        {/* Верхняя строка - контакты по центру, язык слева */}
+        <div className="flex justify-between items-center mb-3">
+          {/* Переключатель языка - слева */}
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            className="flex items-center gap-2 flex-shrink-0"
+          >
+            <Globe className="w-4 h-4 text-gray-400" />
+            <button
+              onClick={() => changeLanguage('ru')}
+              className={`px-3 py-1 text-sm rounded-md transition-colors ${
+                i18n.language === 'ru' 
+                  ? 'bg-blue-500 text-white' 
+                  : 'text-gray-300 hover:text-white hover:bg-gray-700'
+              }`}
+            >
+              RU
+            </button>
+            <button
+              onClick={() => changeLanguage('en')}
+              className={`px-3 py-1 text-sm rounded-md transition-colors ${
+                i18n.language === 'en' 
+                  ? 'bg-blue-500 text-white' 
+                  : 'text-gray-300 hover:text-white hover:bg-gray-700'
+              }`}
+            >
+              EN
+            </button>
+          </motion.div>
+
+          {/* Контакты - по центру с увеличенными отступами */}
+          <div className="flex items-center justify-center gap-8 flex-1 px-8">
+            {contacts.map((contact, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.1 }}
+                className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors group"
               >
-                {item === 'home' ? 'Home' : 
-                 item === 'about' ? 'About' :
-                 item === 'skills' ? 'Skills' :
-                 item === 'projects' ? 'Projects' : 'Contact'}
-              </button>
+                <div className="text-blue-400 group-hover:text-blue-300 transition-colors flex-shrink-0">
+                  {contact.icon}
+                </div>
+                {contact.href ? (
+                  <a 
+                    href={contact.href}
+                    target={contact.external ? "_blank" : "_self"}
+                    rel={contact.external ? "noopener noreferrer" : ""}
+                    className="text-sm hover:text-blue-400 transition-colors whitespace-nowrap"
+                  >
+                    {contact.value}
+                  </a>
+                ) : (
+                  <span className="text-sm whitespace-nowrap">
+                    {contact.value}
+                  </span>
+                )}
+              </motion.div>
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
-          <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          {/* Пустой блок справа для балансировки */}
+          <div className="w-20 flex-shrink-0"></div>
         </div>
 
-        {/* Mobile Menu */}
-        {isOpen && (
-          <div className="md:hidden mt-4 space-y-4 pb-4">
-            {['home', 'about', 'skills', 'projects', 'contact'].map((item) => (
-              <button
-                key={item}
-                onClick={() => scrollToSection(item)}
-                className="block text-gray-300 hover:text-blue-400 transition-colors w-full text-left capitalize"
+        {/* Навигация */}
+        <div className="flex justify-center">
+          <div className="flex w-full max-w-4xl space-x-1 bg-gray-800 rounded-lg p-1">
+            {tabs.map((tab) => (
+              <Link
+                key={tab.id}
+                to={tab.id}
+                className={`flex-1 text-center px-2 py-2 rounded-md text-sm font-medium transition-all duration-300 ${
+                  location.pathname === tab.id
+                    ? 'bg-blue-500 text-white shadow-lg'
+                    : 'text-gray-300 hover:text-white hover:bg-gray-700'
+                }`}
               >
-                {item === 'home' ? 'Home' : 
-                 item === 'about' ? 'About' :
-                 item === 'skills' ? 'Skills' :
-                 item === 'projects' ? 'Projects' : 'Contact'}
-              </button>
+                {tab.label}
+              </Link>
             ))}
           </div>
-        )}
-      </nav>
+        </div>
+      </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

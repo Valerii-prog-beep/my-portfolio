@@ -6,32 +6,42 @@ const Contacts = () => {
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-4">Свяжитесь со мной</h2>
         <p className="text-lg text-gray-300 mb-12">Готов к новым проектам и сотрудничеству</p>
-        
-        <div className="max-w-md mx-auto space-y-6">
-          <div>
-            <h3 className="text-xl font-semibold mb-2">Email</h3>
-            <a href="mailto:ваш.email@example.com" className="text-blue-400 hover:text-blue-300">
-              ваш.email@example.com
-            </a>
-          </div>
-          
-          <div>
-            <h3 className="text-xl font-semibold mb-2">GitHub</h3>
-            <a 
-              href="https://github.com/Valerii-prog-beep" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:text-blue-300"
-            >
-              github.com/Valerii-prog-beep
-            </a>
-          </div>
-          
-          <div>
-            <h3 className="text-xl font-semibold mb-2">Телеграм</h3>
-            <a href="https://t.me/ваш_телеграм" className="text-blue-400 hover:text-blue-300">
-              @ваш_телеграм
-            </a>
+
+        <div className="flex justify-center">
+          <div className="max-w-md space-y-6 text-left">
+            {/* Email */}
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Email</h3>
+              <p className="text-blue-400 transition-colors">
+                valerii_bogovich87@mail.ru
+              </p>
+            </div>
+
+            {/* Github */}
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Github</h3>
+              <a
+                href="https://github.com/Valerii-prog-beep"
+                className="text-blue-400 hover:text-blue-300 transition-colors underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github.com/Valerii-prog-beep
+              </a>
+            </div>
+
+            {/* Telegram */}
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Telegram</h3>
+              <a
+                href="https://t.me/valera_writer"
+                className="text-blue-400 hover:text-blue-300 transition-colors underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                @valera_writer
+              </a>
+            </div>
           </div>
         </div>
       </div>
