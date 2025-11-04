@@ -4,6 +4,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 import enTranslation from './locales/en/translation.json';
 import ruTranslation from './locales/ru/translation.json';
+import frTranslation from './locales/fr/translation.json';
 
 i18n
   .use(LanguageDetector)
@@ -11,9 +12,10 @@ i18n
   .init({
     resources: {
       en: { translation: enTranslation },
-      ru: { translation: ruTranslation }
+      ru: { translation: ruTranslation },
+      fr: { translation: frTranslation }
     },
-    lng: 'en', // Принудительно устанавливаем английский
+    lng: 'en', // Основной язык - английский
     fallbackLng: 'en',
     debug: false,
     interpolation: {
@@ -22,12 +24,14 @@ i18n
     detection: {
       order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
-      // Отключаем автоопределение языка браузера
-      convertDetectedLanguage: (lng) => 'en'
+      // Умное определение: французский браузер → французская версия
+      convertDetectedLanguage: (lng) => {
+        if (lng === 'fr' || lng.startsWith('fr-')) {
+          return 'fr';
+        }
+        return 'en'; // Все остальные - английский
+      }
     }
   });
-
-console.log('i18n initialized:', i18n);
-console.log('Available languages:', i18n.languages);
 
 export default i18n;

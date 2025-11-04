@@ -6,12 +6,14 @@ import WebDevelopment from './pages/WebDevelopment';
 import Writing from './pages/Writing';
 import Photos from './pages/Photos';
 import Music from './pages/Music';
+import ScrollToTop from './components/ScrollToTop';
+
 
 
 function App() {
   return (
     <Router>
-      
+      <ScrollToTop >
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -21,6 +23,7 @@ function App() {
           <Route path="/music" element={<Music />} />
         </Routes>
       </Layout>
+      </ScrollToTop >
     </Router>
   );
 }

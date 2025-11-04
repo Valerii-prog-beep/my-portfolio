@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MessageCircle, Github, Globe } from 'lucide-react';
+import { Mail, Github, Globe, MessageCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
@@ -16,31 +16,29 @@ const Header = () => {
     { id: '/music', label: t('navigation.music') }
   ];
 
-  const contacts = [
-    { 
-      icon: <Mail className="w-4 h-4" />, 
-      value: 'valerii_bogovich87@mail.ru', 
-      href: 'mailto:valerii_bogovich87@mail.ru' 
-    },
-    { 
-      icon: <Phone className="w-4 h-4" />, 
-      value: '+7 XXX XXX-XX-XX', 
-      href: 'tel:+7XXXXXXXXXX' 
-    },
-    { 
-      icon: <Github className="w-4 h-4" />, 
-      value: t('contact.github'), 
-      href: 'https://github.com/Valerii-prog-beep',
-      external: true
-    },
-    { 
-      icon: <MessageCircle className="w-4 h-4" />, 
-      value: t('contact.telegram'), 
-      href: 'https://t.me/valera_writer',
-      external: true
-    }
-  ];
+  
 
+const contacts = [
+  { 
+    icon: <Mail className="w-4 h-4" />, 
+    value: 'valerii_bogovich87@mail.ru',
+    type: 'copy'
+  },
+  { 
+    icon: <Github className="w-4 h-4" />, 
+    value: t('contact.github'), 
+    href: 'https://github.com/Valerii-prog-beep?tab=repositories',
+    external: true,
+    type: 'link'
+  },
+  { 
+    icon: <MessageCircle className="w-4 h-4" />, 
+    value: t('contact.telegram'), 
+    href: 'https://t.me/valera_writer',
+    external: true,
+    type: 'link'
+  }
+];
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
@@ -77,9 +75,19 @@ const Header = () => {
             >
               EN
             </button>
+            <button
+              onClick={() => changeLanguage('fr')}
+              className={`px-3 py-1 text-sm rounded-md transition-colors ${
+                i18n.language === 'fr' 
+                  ? 'bg-blue-500 text-white' 
+                  : 'text-gray-300 hover:text-white hover:bg-gray-700'
+              }`}
+            >
+              FR
+            </button>
           </motion.div>
 
-          {/* Контакты - по центру с увеличенными отступами */}
+          {/* Контакты - по центру */}
           <div className="flex items-center justify-center gap-8 flex-1 px-8">
             {contacts.map((contact, index) => (
               <motion.div

@@ -1,0 +1,267 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "web": "Développement Web",
+    "writing": "Écriture",
+    "photos": "Photographie",
+    "music": "Musique"
+  },
+  "contact": {
+    "email": "Email",
+    "phone": "Téléphone",
+    "github": "GitHub",
+    "telegram": "Telegram"
+  },
+  "hero": {
+    "title": "Valerii Bogovich",
+    "subtitle": "Développeur Frontend & Écrivain & Musicien",
+    "bio1": "Bonjour ! Je suis développeur frontend d'applications web belles et fonctionnelles.",
+    "bio2": "J'écris de la poésie, des histoires, des critiques, je fais de la photographie et de la musique.",
+    "bio3": "Explorez mon portfolio pour en savoir plus sur mes projets et passions !",
+    "learnMore": "En savoir plus"
+  },
+  "about": {
+    "title": "À propos",
+    "subtitle": "Découvrez mon parcours professionnel et mes passions créatives",
+    "educationTitle": "Éducation",
+    "experienceTitle": "Expérience professionnelle",
+    "hobbiesTitle": "Loisirs et passions",
+    "personalInfo": {
+      "location": "Localisation",
+      "locationValue": "Minsk, Biélorussie",
+      "age": "Âge",
+      "ageValue": "38 ans",
+      "experience": "Expérience en Développement",
+      "experienceValue": "2+ ans d'apprentissage et création de projets"
+    },
+    "education": [
+      {
+        "period": "2009-2014",
+        "institution": "Université Technique Nationale Biélorusse",
+        "specialty": "Ingénieur Électromécanicien",
+        "degree": "Spécialiste"
+      },
+      {
+        "period": "2017",
+        "institution": "Jilkom",
+        "specialty": "Électricien de maintenance",
+        "degree": "Ouvrier"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2013-2017",
+        "position": "Ingénieur Concepteur",
+        "company": "OAO PlANAR",
+        "description": "Création de documentation technique pour machines et équipements de production de semi-conducteurs"
+      },
+      {
+        "period": "2017-2018",
+        "position": "Électricien",
+        "company": "Mingorsvet",
+        "description": "Installation d'éclairage sur lignes électriques"
+      },
+      {
+        "period": "2019-2020",
+        "position": "Rénovateur d'installations sportives",
+        "company": "FC Minsk",
+        "description": "Divers travaux dans le club de football : peinture, installation de clôtures, marquage du terrain"
+      },
+      {
+        "period": "2020-2022",
+        "position": "Ouvrier polyvalent",
+        "company": "Belstats",
+        "description": "Travaux auxiliaires pour pièces de machines à neige"
+      },
+      {
+        "period": "2022-2024",
+        "position": "Ouvrier polyvalent",
+        "company": "SBK",
+        "description": "Travaux auxiliaires en atelier de construction béton"
+      },
+      {
+        "period": "2024-Présent",
+        "position": "Livreur",
+        "company": "Yandex Food",
+        "description": "Livraison de commandes"
+      }
+    ],
+    "hobbies": [
+      {
+        "title": "Écriture",
+        "description": "Poésie, critiques, histoires, exploration de genres littéraires"
+      },
+      {
+        "title": "Musique",
+        "description": "Guitare, composition, enregistrement"
+      },
+      {
+        "title": "Photographie",
+        "description": "Photographie artistique et portrait, composition"
+      },
+      {
+        "title": "Programmation",
+        "description": "Nouvelles technologies, projets personnels, open-source"
+      }
+    ]
+  },
+  "web": {
+    "title": "Développement Web",
+    "subtitle": "Je crée des applications full-stack modernes axées sur performance, utilisabilité et évolutivité",
+    "stats": {
+      "projects": "Projets complétés",
+      "fullstack": "Applications Full-Stack",
+      "technologies": "Technologies maîtrisées",
+      "responsive": "Design Responsive"
+    },
+    "offers": {
+      "title": "Ce que je propose"
+    },
+    "services": {
+      "frontend": {
+        "title": "Développement Frontend",
+        "description": "Applications React modernes avec TypeScript, design responsive et animations fluides"
+      },
+      "backend": {
+        "title": "Développement Backend",
+        "description": "Solutions serveur fiables avec Java Spring Boot, API REST, bases de données et authentification"
+      },
+      "design": {
+        "title": "Design UI/UX",
+        "description": "Interfaces intuitives avec expérience utilisateur optimisée et design moderne"
+      }
+    },
+    "approach": {
+      "title": "Ma méthode de développement",
+      "principles": "Principes",
+      "technologies": "Technologies"
+    },
+    "principles": {
+      "cleanCode": "Code propre et maintenable",
+      "userExperience": "Orientation expérience utilisateur",
+      "scalableArchitecture": "Architecture évolutive"
+    },
+    "cta": {
+      "title": "Prêt à démarrer un projet ?",
+      "description": "Vous cherchez un développeur pour créer une application web moderne ? Discutons de vos idées !",
+      "button": "Me contacter"
+    },
+    "technologies": {
+      "react": "React",
+      "typescript": "TypeScript",
+      "tailwind": "Tailwind CSS",
+      "framer": "Framer Motion",
+      "spring": "Java Spring Boot",
+      "mysql": "MySQL",
+      "jwt": "JWT",
+      "rest": "REST API",
+      "figma": "Figma",
+      "responsive": "Design Responsive",
+      "research": "Recherche Utilisateur"
+    },
+    "projects": {
+      "title": "Mes Projets",
+      "subtitle": "Applications full-stack et frontend démontrant mes compétences",
+      "fullstack": "Full-Stack",
+      "frontend": "Frontend",
+      "featuresTitle": "Fonctionnalités",
+      "technologiesTitle": "Technologies",
+      "viewProject": "Voir le projet",
+      "sourceCode": "Code source",
+      "allProjectsInclude": "Tous les projets incluent",
+      "allFeatures": {
+        "responsive": "Design responsive",
+        "modernUI": "UI/UX moderne",
+        "cleanCode": "Code propre",
+        "documentation": "Documentation"
+      },
+      "features": {
+        "adminPanel": "Panel admin",
+        "menuManagement": "Gestion menu",
+        "orderSystem": "Système commandes",
+        "authentication": "Authentification",
+        "onlinePayment": "Paiement en ligne",
+        "productCatalog": "Catalogue produits",
+        "shoppingCart": "Panier",
+        "personalAccount": "Compte personnel",
+        "tourBooking": "Réservation voyages",
+        "filtering": "Filtrage",
+        "formValidation": "Validation formulaires",
+        "responsiveDesign": "Design responsive",
+        "smoothAnimations": "Animations fluides",
+        "multiPage": "Multi-pages",
+        "seoOptimization": "Optimisation SEO"
+      },
+      "coffeeShop": {
+        "title": "Café",
+        "description": "Site web complet avec panel admin. Menu, système de commandes, gestion produits et panier utilisateur."
+      },
+      "ecommerce": {
+        "title": "Boutique en ligne",
+        "description": "Plateforme e-commerce complète. Catalogue, panier, commandes, paiement et compte utilisateur."
+      },
+      "travelAgency": {
+        "title": "Agence de voyage",
+        "description": "Site moderne de réservation. Filtrage voyages, calcul prix, validation formulaires et design responsive."
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "Portfolio web multi-pages avec design moderne. Animations, responsive et éléments interactifs."
+      }
+    }
+  },
+  "skills": {
+    "title": "Compétences Techniques",
+    "subtitle": "J'améliore constamment mes compétences et apprends nouvelles technologies",
+    "frontend": "Frontend",
+    "backend": "Backend & Langages",
+    "tools": "Outils & DevOps",
+    "learning": {
+      "title": "En cours d'apprentissage",
+      "technologies": "Next.js, GraphQL, AWS, Patterns TypeScript avancés, Architecture Microservices"
+    },
+    "technologies": {
+      "html": "HTML",
+      "css": "CSS",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "react": "React",
+      "tailwind": "Tailwind CSS",
+      "nodejs": "Node.js",
+      "java": "Java",
+      "python": "Python",
+      "sql": "SQL",
+      "git": "Git",
+      "figma": "Figma",
+      "chatgpt": "ChatGPT/DeepSeek",
+      "docker": "Docker"
+    }
+  },
+  "writing": {
+    "title": "Écriture",
+    "subtitle": "Mes travaux littéraires - poésie, histoires et textes créatifs",
+    "categories": {
+      "poetry": "Poésie",
+      "stories": "Histoires",
+      "reviews": "Critiques"
+    }
+  },
+  "photos": {
+    "title": "Photographie",
+    "subtitle": "Mon portfolio photo - travaux artistiques et portraits",
+    "categories": {
+      "portrait": "Portrait",
+      "artistic": "Artistiques",
+      "nature": "Nature"
+    }
+  },
+  "music": {
+    "title": "Musique",
+    "subtitle": "Mes travaux musicaux - guitare et compositions",
+    "categories": {
+      "guitar": "Guitare",
+      "compositions": "Compositions",
+      "covers": "Reprises"
+    }
+  }
+}

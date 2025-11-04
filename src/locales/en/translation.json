@@ -13,16 +13,16 @@
     "telegram": "Telegram"
   },
   "hero": {
-    "title": "Valery Bogovich",
+    "title": "Valerii Bogovich",
     "subtitle": "Frontend Developer & Writer & Musician",
     "bio1": "Hello! I'm a frontend developer of beautiful and functional web applications.",
-    "bio2": "I write poetry, reviews, stories, do photography and music.",
-    "bio3": "Explore my portfolio to learn more about my projects and hobbies!",
+    "bio2": "I write poetry, stories, reviews, do photography and music.",
+    "bio3": "Explore my portfolio to learn more about my projects and passions!",
     "learnMore": "Learn More"
   },
   "about": {
     "title": "About Me",
-    "subtitle": "Getting to know my professional path and creative hobbies",
+    "subtitle": "Getting to know my professional journey and creative passions",
     "educationTitle": "Education",
     "experienceTitle": "Work Experience",
     "hobbiesTitle": "Hobbies & Interests",
@@ -31,8 +31,8 @@
       "locationValue": "Minsk, Belarus",
       "age": "Age",
       "ageValue": "38 years",
-      "experience": "IT Experience",
-      "experienceValue": "2+ years"
+      "experience": "Development Experience",
+      "experienceValue": "2+ years of learning and project building"
     },
     "education": [
       {
@@ -65,22 +65,22 @@
         "period": "2019-2020",
         "position": "Stadium Facilities Repairman",
         "company": "FC Minsk",
-        "description": "Various works on the territory of the football club: painting and installation of fences, marking the football field, etc."
+        "description": "Various works on the football club territory: painting and installation of fences, football field marking, etc."
       },
       {
         "period": "2020-2022",
         "position": "Handyman",
         "company": "Belstats",
-        "description": "Auxiliary work on the production of parts for snow removal machines"
+        "description": "Auxiliary work on manufacturing parts for snow removal machines"
       },
       {
         "period": "2022-2024",
         "position": "Handyman",
         "company": "SBK",
-        "description": "Auxiliary work in the workshop for the production of reinforced concrete structures"
+        "description": "Auxiliary work in reinforced concrete structures workshop"
       },
       {
-        "period": "2024-present",
+        "period": "2024-Present",
         "position": "Courier",
         "company": "Yandex Food",
         "description": "Order delivery"
@@ -112,10 +112,10 @@
       "projects": "Completed projects",
       "fullstack": "Full-Stack applications",
       "technologies": "Technologies in stack",
-      "responsive": "Responsive design"
+      "responsive": "Responsive Design"
     },
     "offers": {
-      "title": "What I offer"
+      "title": "What I Offer"
     },
     "services": {
       "frontend": {
@@ -124,7 +124,7 @@
       },
       "backend": {
         "title": "Backend Development",
-        "description": "Reliable server solutions on Java Spring Boot with REST API, databases and authentication"
+        "description": "Reliable server solutions with Java Spring Boot, REST API, databases and authentication"
       },
       "design": {
         "title": "UI/UX Design",
@@ -138,13 +138,13 @@
     },
     "principles": {
       "cleanCode": "Clean and maintainable code",
-      "userExperience": "Focus on user experience",
+      "userExperience": "User experience focus",
       "scalableArchitecture": "Scalable architecture"
     },
     "cta": {
       "title": "Ready to start a project?",
       "description": "Looking for a developer to create a modern web application? Let's discuss your ideas and find the best solution!",
-      "button": "Contact Me"
+      "button": "Contact me"
     },
     "technologies": {
       "react": "React",
@@ -166,8 +166,8 @@
       "frontend": "Frontend",
       "featuresTitle": "Features",
       "technologiesTitle": "Technologies",
-      "viewProject": "View Project",
-      "sourceCode": "Source Code",
+      "viewProject": "View project",
+      "sourceCode": "Source code",
       "allProjectsInclude": "All projects include",
       "allFeatures": {
         "responsive": "Responsive design",
@@ -194,15 +194,15 @@
       },
       "coffeeShop": {
         "title": "Coffee Shop",
-        "description": "Full-featured coffee shop website with admin panel. Includes menu, order system, product management and user shopping cart."
+        "description": "Full-featured coffee shop website with admin panel. Includes menu, order system, product management and user cart."
       },
       "ecommerce": {
-        "title": "E-commerce Store",
-        "description": "E-commerce platform with full purchase cycle. Product catalog, shopping cart, order processing, payment system and user personal account."
+        "title": "E-commerce",
+        "description": "E-commerce platform with complete shopping cycle. Product catalog, cart, order processing, payment system and user account."
       },
       "travelAgency": {
         "title": "Travel Agency",
-        "description": "Modern website for booking tours with intuitive interface. Tour filtering, cost calculation, form validation and responsive design."
+        "description": "Modern tour booking website with intuitive interface. Tour filtering, cost calculation, form validation and responsive design."
       },
       "portfolio": {
         "title": "Portfolio",
@@ -212,7 +212,7 @@
   },
   "skills": {
     "title": "Technical Skills",
-    "subtitle": "Constantly improving my skills and learning new technologies to create modern web applications",
+    "subtitle": "I constantly improve my skills and learn new technologies to create modern web applications",
     "frontend": "Frontend",
     "backend": "Backend & Languages",
     "tools": "Tools & DevOps",
@@ -239,7 +239,7 @@
   },
   "writing": {
     "title": "Writing",
-    "subtitle": "My literary works - poetry, stories, and creative writing",
+    "subtitle": "My literary works - poetry, stories and creative texts",
     "categories": {
       "poetry": "Poetry",
       "stories": "Stories",
