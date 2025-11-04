@@ -16,29 +16,30 @@ const Header = () => {
     { id: '/music', label: t('navigation.music') }
   ];
 
-  
-
-const contacts = [
+  const contacts = [
   { 
     icon: <Mail className="w-4 h-4" />, 
     value: 'valerii_bogovich87@mail.ru',
+    href: 'mailto:valerii_bogovich87@mail.ru', // Верните эту строку
     type: 'copy'
   },
-  { 
-    icon: <Github className="w-4 h-4" />, 
-    value: t('contact.github'), 
+  {
+    icon: <Github className="w-4 h-4" />,
+    value: t('contact.github'),
     href: 'https://github.com/Valerii-prog-beep?tab=repositories',
     external: true,
     type: 'link'
   },
-  { 
-    icon: <MessageCircle className="w-4 h-4" />, 
-    value: t('contact.telegram'), 
+  {
+    icon: <MessageCircle className="w-4 h-4" />,
+    value: t('contact.telegram'),
     href: 'https://t.me/valera_writer',
     external: true,
     type: 'link'
   }
 ];
+
+
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
