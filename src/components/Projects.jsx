@@ -45,7 +45,7 @@ const Projects = () => {
       description: t('web.projects.travelAgency.description'),
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vite"],
       githubUrl: "https://github.com/Valerii-prog-beep/travel-agency",
-      demoUrl: "#",
+      demoUrl: "https://clever-cendol-167660.netlify.app",
       features: [
         t('web.projects.features.tourBooking'),
         t('web.projects.features.filtering'),
@@ -61,7 +61,7 @@ const Projects = () => {
       description: t('web.projects.portfolio.description'),
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "React Router"],
       githubUrl: "https://github.com/Valerii-prog-beep/my-portfolio",
-      demoUrl: "#",
+      demoUrl: "https://celadon-medovik-aaec6f.netlify.app",
       features: [
         t('web.projects.features.responsiveDesign'),
         t('web.projects.features.smoothAnimations'),
