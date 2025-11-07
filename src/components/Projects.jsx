@@ -11,7 +11,7 @@ const Projects = () => {
       id: 1,
       title: t('web.projects.coffeeShop.title'),
       description: t('web.projects.coffeeShop.description'),
-      technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
+      technologies: ["React", "Java Spring Boot", "MySQL", "Docker", "Vite", "Tailwind CSS"],
       githubUrl: "https://github.com/Valerii-prog-beep/coffee-shop",
       demoUrl: "#",
       features: [
@@ -27,16 +27,16 @@ const Projects = () => {
       id: 2, 
       title: t('web.projects.ecommerce.title'),
       description: t('web.projects.ecommerce.description'),
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API", "Redux"],
-      githubUrl: "https://github.com/Valerii-prog-beep/ecommerce-store",
-      demoUrl: "#",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Zustand", "Framer Motion", "Vite"],
+      githubUrl: "https://github.com/Valerii-prog-beep/techstore-ecommerce",
+      demoUrl: "https://valerii-techstore-ecommerce.netlify.app",
       features: [
         t('web.projects.features.onlinePayment'),
         t('web.projects.features.productCatalog'),
         t('web.projects.features.shoppingCart'),
         t('web.projects.features.personalAccount')
       ],
-      backend: true,
+      backend: false,
       featured: true
     },
     {

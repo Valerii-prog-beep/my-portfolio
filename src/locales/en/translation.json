@@ -197,8 +197,8 @@
         "description": "Full-featured coffee shop website with admin panel. Includes menu, order system, product management and user cart."
       },
       "ecommerce": {
-        "title": "E-commerce",
-        "description": "E-commerce platform with complete shopping cycle. Product catalog, cart, order processing, payment system and user account."
+        "title": "TechStore - Modern E-commerce",
+        "description": "Modern e-commerce store with product catalog, advanced search, shopping cart, and responsive design. Built with React, TypeScript, and modern web technologies."
       },
       "travelAgency": {
         "title": "Travel Agency",
